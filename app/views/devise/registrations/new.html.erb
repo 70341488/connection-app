@@ -40,6 +40,22 @@
             <%= f.password_field :password_confirmation, autocomplete: "off"%>
           </div>
         </div>
+        <div class='field'>
+          <div class='field-label'>
+            <%= f.label :birth_date%>
+          </div>
+          <div class='field-input'>
+            <%= f.date_field :birth_date, autocomplete: "off"%>
+          </div>
+        </div>
+         <div class='field'>
+          <div class='field-label'>
+            <%= f.label :gender%>
+          </div>
+          <div class='field-input'>
+            <%= f.text_field :gender, autocomplete: "off"%>
+          </div>
+        </div>
         <div class='actions'>
           <%= f.submit "Create Account", class: 'btn'%>
         </div>
