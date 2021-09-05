@@ -48,14 +48,13 @@
             <%= f.date_field :birth_date, autocomplete: "off"%>
           </div>
         </div>
-         <div class='field'>
-          <div class='field-label'>
-            <%= f.label :gender%>
+        <div class="sex-field">
+            <%= f.label :gender %><br />
+            <%= f.label :man  %>
+            <%= f.radio_button :gender, :man %>
+            <%= f.label :woman  %>
+            <%= f.radio_button :gender, :woman %>
           </div>
-          <div class='field-input'>
-            <%= f.text_field :gender, autocomplete: "off"%>
-          </div>
-        </div>
         <div class='actions'>
           <%= f.submit "Create Account", class: 'btn'%>
         </div>
