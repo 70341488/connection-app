@@ -5,7 +5,11 @@ def edit
 end
 
 def update
-  current_user.update(user_params)
+ if current_user.update(user_params)
+  redirect_to  action: :index
+ else
+  render :edit
+ end
 end
 
 private
