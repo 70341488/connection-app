@@ -18,7 +18,6 @@ def create
   end
 end
 
-private
 
 private
 
