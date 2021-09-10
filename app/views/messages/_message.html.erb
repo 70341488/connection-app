@@ -1,7 +1,7 @@
 <div class="message">
   <div class="upper-message">
     <div class="message-user">
-      <!-- 投稿したユーザー名情報を出力する -->
+      <!-- 投稿したユーザー名のニックネームを出力する -->
       <%= message.user.nickname %>
     </div>
     <div class="message-date">
@@ -11,12 +11,17 @@
   </div>
   <div class="lower-message">
     <div class="message-content">
-      <!-- 投稿したメッセージ内容を記述する -->
+      <!-- 投稿したタイトルを記述する -->
       <%= message.title %>
+      <!-- 投稿したものの説明を記述する -->
       <%= message.explanation %>
+      <!-- 投稿したもののジャンルを記述する -->
       <%= message.category.name %>
+      <!-- 投稿したものの都道府県を記述する -->
       <%= message.prefectures.name %>
+      <!-- 投稿したものの市区町村を記述する -->
       <%= message.municipalities %>
     </div>
+    <%= image_tag message.image.variant(resize: '500x500'), class: 'message-image' if message.image.attached? %>
   </div>
 </div>
