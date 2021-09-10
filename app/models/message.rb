@@ -5,12 +5,15 @@ class Message < ApplicationRecord
 
   belongs_to :user
   belongs_to :room
+  has_one_attached :image
 
-  with_options presence: true do
-    validates :title
-    validates :explanation
+  
+    validates :title, presence: true, unless: :was_attached?
+  
+
+  
+
+  def was_attached?
+    self.image.attached?
   end
-
-  validates :category_id, numericality: { other_than: 1, message: "can't be blank"}
-
 end
