@@ -34,7 +34,7 @@
 
 | Column                                   | Type           | Options                                      |
 | ------------------------------------------ | ---------------- | --------------------------------------------- |
-| category_id                             | integer        | null: false                                   |
+| name                                       | string         | null: false                                   |
 
 ### Association
 
@@ -61,10 +61,9 @@
 | user                                       | references   | null: false, foreign_key: true         |
 | room                                      | references   | null: false, foreign_key: true        |
 | title                                        | string           | null: false                                   |
-| explanation                             | text             | null: false                                    |
 | prefectures_id                        | integer         |                                                   |
 | municipalities                          | string           |                                                   |
-| category_id                             | integer         | null: false                                    |
+| category_id                             | integer         |                                                   |
 
 ### Association
 
