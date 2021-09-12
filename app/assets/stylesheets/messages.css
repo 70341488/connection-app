@@ -60,8 +60,21 @@
 
 .header-title {
   color: #333;
-  font-size: 24px;
+  font-size: 16px;
   margin-top: 36px;
+}
+
+.header-page {
+  color: #333;
+  font-size: 16px;
+  margin-top: 36px;
+}
+
+.header-page a {
+  text-decoration: none;
+  border: 1px solid rgb(139, 0, 109);
+  color: darkred;
+  padding: 20px;
 }
 
 .header-button {
@@ -70,7 +83,7 @@
 
 .header-button a {
   text-decoration: none;
-  border: 1px solid darkred;
+  border: 1px solid rgb(139, 0, 109);
   color: darkred;
   padding: 20px;
 }

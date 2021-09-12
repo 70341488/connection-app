@@ -4,6 +4,11 @@
       <%= @room.name %>
     </div>
   </div>
+  <div class="header-middle">
+    <div class="header-page">
+     <%= link_to "マイページ", "/users/#{current_user.id}" %>
+    </div>
+  </div>
   <div class="right-header">
     <div class="header-button">
       <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
