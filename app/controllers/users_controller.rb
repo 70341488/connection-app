@@ -12,6 +12,13 @@ def update
  end
 end
 
+def show
+  user = User.find(params[:id])
+  @nickname = user.nickname
+  @messages = user.messages
+end
+
+
 private
 
 def user_params

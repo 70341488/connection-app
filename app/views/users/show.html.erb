@@ -1,0 +1,10 @@
+<div class="contents">
+  <p class="nickname"><%= @nickname %>さんの投稿一覧</p>
+  <% @messages.each do |message| %>
+    <p class="image"><%= image_tag message.image.variant(resize: '500x500'), class: 'message-image' if message.image.attached? %></p>
+      <p class="txet"><%= message.title %></p>
+      <p class="txet"><%= message.category.name %></p>
+      <p class="txet"><%= message.prefectures.name %></p>
+      <p class="txet"><%= message.municipalities %></p>
+  <% end %>
+</div>
