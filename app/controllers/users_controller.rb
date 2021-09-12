@@ -13,10 +13,11 @@ def update
 end
 
 def show
-  @nickname = current_user.nickname
-  @messages = current_user.messages
-  end
+  user = User.find(params[:id])
+  @nickname = user.nickname
+  @messages = user.messages
 end
+
 
 private
 
