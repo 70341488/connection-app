@@ -12,6 +12,12 @@ def update
  end
 end
 
+def show
+  @nickname = current_user.nickname
+  @messages = current_user.messages
+  end
+end
+
 private
 
 def user_params
