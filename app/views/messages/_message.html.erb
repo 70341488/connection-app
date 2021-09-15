@@ -12,14 +12,14 @@
   <div class="lower-message">
     <div class="message-content">
       <!-- 投稿したタイトルまたはメッセージを記述する -->
-      <%= message.title %>
+    <p><%= message.title %></p>
       <!-- 投稿したもののジャンルを記述する -->
-      <%= message.category.name %>
+      <p><%= message.category.name %></p>
       <!-- 投稿したものの都道府県を記述する -->
-      <%= message.prefectures.name %>
+      <p><%= message.prefectures.name %></p>
       <!-- 投稿したものの市区町村を記述する -->
-      <%= message.municipalities %>
-    </div>
+      <p><%= message.municipalities %></p>
     <%= image_tag message.image.variant(resize: '200x200'), class: 'message-image' if message.image.attached? %>
+    </div>
   </div>
 </div>
