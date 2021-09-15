@@ -11,6 +11,7 @@ class MessagesController < ApplicationController
     @room = Room.find(params[:room_id])
     @message = @room.messages.new(message_params)
     if @message.save
+      ActionCable.server.broadcast 'message_channel', {message: @message, category: @message.category.name, prefectures: @message.prefectures.name}
       redirect_to room_messages_path(@room)
     else
       @messages = @room.messages.includes(:user)
