@@ -167,3 +167,8 @@
 .hidden {
   display: none;
 }
+
+.preview-size{
+  height: 500px;
+  width: auto;
+}
