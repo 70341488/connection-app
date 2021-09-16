@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
+  if ( document.getElementById('message_image')){
   const ImageList = document.getElementById('image-list');
   document.getElementById('message_image').addEventListener('change', function(e){
     const file = e.target.files[0];
@@ -16,5 +17,6 @@ document.addEventListener('DOMContentLoaded', function(){
     // 生成したHTMLの要素をブラウザに表示させる
     imageElement.appendChild(blobImage);
     ImageList.appendChild(imageElement);
-  });
+   });
+  }
 });
