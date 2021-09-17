@@ -10,7 +10,7 @@ consumer.subscriptions.create("MessageChannel", {
   },
 
   received(data) {
-    const html = `<p>${data.message.title}${data.category}${data.perfectures}${data.message.municipalities}${data.message.image}</p>`;
+    const html = `<p>${data.nickname}${data.message.created_at}${data.message.title}${data.category}${data.area}${data.message.municipalities}${data.message.image}</p>`;
     const messages = document.getElementById('send');
     const newMessage = document.getElementById('message_title');('message_category_id');('message_prefectures_id');('message_municipalities');('message_image')
     messages.insertAdjacentHTML('afterbegin', html);
