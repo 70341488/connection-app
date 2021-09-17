@@ -64,6 +64,13 @@
   margin-top: 36px;
 }
 
+.header-title a {
+  text-decoration: none;
+  border: 1px solid rgb(139, 0, 109);
+  color: darkred;
+  padding: 20px;
+}
+
 .header-page {
   color: #333;
   font-size: 16px;
@@ -166,4 +173,9 @@
 
 .hidden {
   display: none;
+}
+
+.preview-size{
+  height: 500px;
+  width: auto;
 }
