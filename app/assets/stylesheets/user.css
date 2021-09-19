@@ -138,9 +138,13 @@
 	display: none;
 	z-index: 9999;
 	width: 100%;
-  /* background-size: cover; */
-  /* min-height: 100vh; */
+  background-size: cover;
+  min-height: 100vh;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
 
