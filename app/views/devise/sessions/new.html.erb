@@ -1,3 +1,6 @@
+  <div class="start">
+    <p><%= image_tag('logo.webp') %></p>
+  </div>
 <div class='account-page' id='account-page'>
   <div class='account-page__inner clearfix'>
     <div class='account-page__inner--left account-page__header'>
@@ -6,6 +9,9 @@
       <%= render "devise/shared/links"%>
     </div>
     <div class='account-page__inner--right user-form'>
+     <div class="start">
+    <p><%= image_tag('logo.webp') %></p>
+  </div>
       <%= form_with model: resource, as: resource_name, url: session_path(resource_name), local: true do |f|%>
         <div class='field'>
           <div class='field-label'>

@@ -8,7 +8,7 @@ require("@rails/activestorage").start()
 require("channels")
 require('../preview')
 require('jquery')
-require('test.js')
+require('logo.js')
 
 
 
