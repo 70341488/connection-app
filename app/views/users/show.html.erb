@@ -1,6 +1,6 @@
 <div class="contents">
   <p class="nickname"><%= @nickname %>さんの投稿一覧</p>
-  <%= link_to 'トップページへ戻る', root_path %>
+  <div class="return"><%= link_to 'トップページへ戻る', root_path %></div>
   <% @messages.each do |message| %>
   <% if message.image.attached? && message.title %>
     <p class="image"><%= image_tag message.image.variant(resize: '500x500'), class: 'message-image' %></p>

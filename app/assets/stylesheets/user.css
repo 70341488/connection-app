@@ -115,10 +115,25 @@
 
 .contents  {
   text-align: center;
+  background-color:#38aef0;
 }
+
 
 .contents p {
   margin-bottom: 50px;
+}
+
+.nickname {
+  font-size: 60px;
+}
+
+.return {
+  font-size: 30px;
+}
+
+.return a {
+  color: red;
+  text-decoration: none;
 }
 
 .start {
@@ -146,5 +161,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-

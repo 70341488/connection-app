@@ -44,10 +44,11 @@
 .room-name a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 .chat {
-  background-color: #FFFFFF;
+  background-color:yellowgreen;
   width: calc(100vw - 300px);
 }
 
@@ -85,8 +86,12 @@
 }
 
 .header-button {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  color: #333;
+  font-size: 16px;
+  margin-top: 36px;
 }
+
 
 .header-button a {
   text-decoration: none;
@@ -96,7 +101,8 @@
 }
 
 .messages {
-  background-color: #FAFAFA;
+  /* background-image: image-url("ocean.jpg"); */
+  background-color: white;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
@@ -132,7 +138,7 @@
 }
 
 .form {
-  background-color: #DDDDDD;
+  background-color:yellowgreen;
   height: 90px;
   padding: 20px 40px;
   display: flex;
@@ -152,23 +158,39 @@
 }
 
 .form-submit {
-  background-color: #38AEF0;
-  border: none;
-  color: white;
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
   font-size: 16px;
   height: 50px;
   margin-left: 15px;
   padding: 0 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+.form-submit:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
 }
 
 .form-image {
-  font-size: 12px;
-  background-color: lightblue;
-  color: white;
-  padding: 12px;
-  width: 60px;
+  font-size: 10px;
+  color: #000;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+  padding: 5px;
+  width: 100px;
   margin: 5px 10px;
   text-align: center;
+}
+
+.form-image:hover {
+  margin-top: 3px;
+  color: #000;
+  background: # fff20a;
+  border-bottom: 2px solid #ccc100;
 }
 
 .hidden {
@@ -176,11 +198,12 @@
 }
 
 .preview-size{
-  height: 500px;
+  height: 200px;
   width: auto;
 }
 
 body {
   margin: 0;
   padding: 0;
-}
+
+
