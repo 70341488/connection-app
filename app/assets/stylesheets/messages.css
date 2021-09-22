@@ -9,34 +9,37 @@
 
 .side-bar-header {
   height: 100px;
-  padding: 0 30px;
-  background-color:springgreen;
+  padding: 0 20px;
+  background-color: rgba(245, 241, 241, 0.836);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .header-name a{
   font-size: 16px;
-  color: red;
+  color: black;
   text-decoration: none;
 }
 
 
 .create-room a {
-  font-size: 10px;
-  border: 1px solid blue;
+  font-size: 16px;
+  border: 1px solid red;
   padding: 14px;
-  color: red;
+  color: black;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .rooms {
-  background-color:lightskyblue;
+  background-color: rgba(245, 241, 241, 0.836);
   height: calc(100vh - 100px);
   padding: 0 20px;
   overflow: scroll;
+  border-right: 1px solid black;
 }
 
 .room {
@@ -45,12 +48,12 @@
 
 .room-name a {
   text-decoration: none;
-  color:yellow;
+  color: black;
   font-size: 20px;
 }
 
 .chat {
-  background-color:yellowgreen;
+  background-color: white;
   width: calc(100vw - 300px);
 }
 
@@ -59,6 +62,7 @@
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
 .header-title {
@@ -139,7 +143,7 @@
 }
 
 .form {
-  background-color:yellowgreen;
+  background-color: rgb(125, 125, 207);
   height: 90px;
   padding: 20px 40px;
   display: flex;
@@ -206,5 +210,4 @@
 body {
   margin: 0;
   padding: 0;
-
-
+}

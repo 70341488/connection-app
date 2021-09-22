@@ -8,11 +8,36 @@ consumer.subscriptions.create("MessageChannel", {
   disconnected() {
     // Called when the subscription has been terminated by the server
   },
-
+ 
   received(data) {
-    const html = `<p>${data.nickname}${data.message.created_at}${data.message.title}${data.category}${data.area}${data.message.municipalities}${data.message.image}</p>`;
+    // const html = `<p>${data.nickname}${data.message.created_at}${data.message.title}${data.category}${data.area}${data.message.municipalities}${data.message.image}</p>`;
+    const title = `<p>${data.message.title}</p>`;
+    const createdAt = `<p>${data.message.created_at}</p>`;
+    const nickName = `<p>${data.nickname}</p>`;
+    const Category = `<p>${data.category}</p>`;
+    const Area = `<p>${data.area}</p>`;
+    const Municipalities = `<p>${data.message.municipalities}</p>`;
+    console.log(Municipalities)
+    // const image = `<p>${data.user.image}</p>`;
+    const html = `
+    <div class="upper-message">
+      <div class="message-user">
+        <p>${nickName}</p>
+      </div>
+      <div class="message-date">
+        <p>${createdAt}</p>
+      </div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">
+        <p>${title}</p>
+        <p>${Category}</p>
+        <p>${Area}</p>
+        <p>${Municipalities}</p>
+      </div>
+    </div>`
     const messages = document.getElementById('send');
-    const newMessage = document.getElementById('message_title');('message_category_id');('message_prefectures_id');('message_municipalities');('message_image')
+    const newMessage = document.getElementById('image_list');('message_title');('message_category_id');('message_prefectures_id');('message_municipalities');('message_image');
     messages.insertAdjacentHTML('afterbegin', html);
     newMessage.value='';
   }

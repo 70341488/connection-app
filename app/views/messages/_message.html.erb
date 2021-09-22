@@ -19,9 +19,8 @@
       <p><%= message.prefectures.name %></p>
       <!-- 投稿したものの市区町村を記述する -->
       <p><%= message.municipalities %></p>
-    
+      <!-- 投稿したものの画像を記述する -->
     <%= image_tag message.image.variant(resize: '200x200'), class: 'message-image' if message.image.attached? %>
-  
     </div>
   </div>
 </div>
