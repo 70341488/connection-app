@@ -17,8 +17,9 @@ consumer.subscriptions.create("MessageChannel", {
     const Category = `<p>${data.category}</p>`;
     const Area = `<p>${data.area}</p>`;
     const Municipalities = `<p>${data.message.municipalities}</p>`;
-    console.log(Municipalities)
-    // const image = `<p>${data.user.image}</p>`;
+    const image = document.getElementById('message-image');
+    console.log(image)
+    // debugger
     const html = `
     <div class="upper-message">
       <div class="message-user">
@@ -34,6 +35,7 @@ consumer.subscriptions.create("MessageChannel", {
         <p>${Category}</p>
         <p>${Area}</p>
         <p>${Municipalities}</p>
+        <img src="${image}" class="message-image">
       </div>
     </div>`
     const messages = document.getElementById('send');
