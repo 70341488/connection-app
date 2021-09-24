@@ -2,7 +2,7 @@
   width: 980px;
   margin: 60px auto;
   padding: 60px;
-  background-color: #fff;
+  background-image: url('logo.jpg');
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -30,7 +30,7 @@
 }
 .account-page .account-page__header h5 {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 200;
 }
 .account-page .account-page__header .btn {
@@ -66,6 +66,14 @@
   border: none;
   border-radius: 2px;
 }
+
+.account-page .btn:hover {
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+
 .account-page input[type=submit] {
   float: left;
   margin-top: 20px;
@@ -117,6 +125,51 @@
   text-align: center;
 }
 
+
 .contents p {
   margin-bottom: 50px;
+  font-size: 20px;
+  color: black;
 }
+
+.nickname {
+  font-size: 60px;
+}
+
+.return {
+  font-size: 30px;
+}
+
+.return a {
+  color: red;
+  text-decoration: none;
+}
+
+.start {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 100%;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('ocean.jpg');
+  background-size: cover;
+}
+

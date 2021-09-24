@@ -1,18 +1,63 @@
-<h1 align="center">connection-app</h1>
+# アプリ名  
+# connection-app
 
-<h2>自分のお勧めのものの紹介から人と人が繋がれる</h2>
+# 概要 
+## 自分のお勧めのものの紹介から人と人が繋がれて、画像と文章を介して共通点で繋がりチャットでやり取りする
 
-<h3>URL</h3>
+# 本番環境
+ ##  url https://connectionchat-app.herokuapp.com/
+   
+## テスト用アカウント email youfuzhongshan75@gmail.com  password suke4men
 
-<h3>テスト用アカウント<h3>
+# 制作背景 
+## 人は自分の好きなものを他人に紹介したい欲がある。それを画像と文章で他人に伝え共感して貰う
 
-<h3>画像と文章を介して共通点で繋がりチャットでやり取りする</h3>
+# DEMO
+## 新規登録画面
+[![Image from Gyazo](https://i.gyazo.com/edd108c155d0e387f01a6e5d1b1f5965.gif)](https://gyazo.com/edd108c155d0e387f01a6e5d1b1f5965)
+## ログイン機能
+[![Image from Gyazo](https://i.gyazo.com/87b6ba21aa8ea4627437683fd30666f9.gif)](https://gyazo.com/87b6ba21aa8ea4627437683fd30666f9)
+## チャットルーム作成
+[![Image from Gyazo](https://i.gyazo.com/266c52f464a8b21202a8aa5b83a17a08.gif)](https://gyazo.com/266c52f464a8b21202a8aa5b83a17a08)
+## チャット機能
+[![Image from Gyazo](https://i.gyazo.com/a5a83d18a776cf0c055d2b07f552533b.gif)](https://gyazo.com/a5a83d18a776cf0c055d2b07f552533b)
+## マイページ機能 削除削除機能
+[![Image from Gyazo](https://i.gyazo.com/2ed7846d875788e866864b4019799121.gif)](https://gyazo.com/2ed7846d875788e866864b4019799121)
+# 使用技術(開発環境)
+## バックエンド
+## Ruby, Ruby on Rails
 
-<h3>人は自分の好きなものを他人に紹介したい欲がある。それを画像と文章で他人に伝え共感して貰う</h3>
+## フロントエンド
+## HTML, CSS, JavaScript,JQuery
+
+## データベース
+## MySQL, Sequel Pro
+
+## インフラ
+## AWS(S3機能)
 
 
+## ソース管理
+## GitHub,GitHubDesktop
 
-#テーブル設計
+## テスト
+## RSpec
+
+## エディタ
+## VSCode
+
+# 課題や今後実装したい機能
+## レスポンシブデザイン
+## エラーメッセージの日本語化
+## チャットルームのライン風チャットボット化
+## 複数人でのチャット機能
+
+
+# テーブル設計
+
+# ER図 
+![connection](https://user-images.githubusercontent.com/88077407/134621438-6bb8b73d-b67b-49d4-9864-9a89fa35fff2.png)
+
 
 ## users テーブル
 
