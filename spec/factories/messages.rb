@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :message do
-    title                        {Faker::Lorem.sentence}
-    prefectures_id        { 2 }
+    title { Faker::Lorem.sentence }
+    prefectures_id { 2 }
     municipalities          { '東京都' }
     category_id             { 2 }
     association :user

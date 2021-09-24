@@ -5,8 +5,8 @@
 ## 自分のお勧めのものの紹介から人と人が繋がれて、画像と文章を介して共通点で繋がりチャットでやり取りする
 
 # 本番環境
- ##  url https://connectionchat-app.herokuapp.com/
-   
+##  url https://connectionchat-app.herokuapp.com/
+
 ## テスト用アカウント email youfuzhongshan75@gmail.com  password suke4men
 
 # 制作背景 

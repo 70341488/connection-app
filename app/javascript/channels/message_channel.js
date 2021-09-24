@@ -16,12 +16,10 @@ consumer.subscriptions.create("MessageChannel", {
     const Category = `<p>${data.category}</p>`;
     const Area = `<p>${data.area}</p>`;
     const Municipalities = `<p>${data.message.municipalities}</p>`;
-    // const image = document.images['message-image']
-    // const image = document.getElementById('message-image');
+    
+    
     const image = data.image;
-    // const image = document.getElementById('js-image');
-    console.log(image)
-    // debugger
+    
     const html = `
     <div class="upper-message">
       <div class="message-user">
