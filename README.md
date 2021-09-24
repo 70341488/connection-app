@@ -14,7 +14,7 @@
 
 # DEMO
 ## 新規登録画面
-[![Image from Gyazo](https://i.gyazo.com/edd108c155d0e387f01a6e5d1b1f5965.gif)](https://gyazo.com/edd108c155d0e387f01a6e5d1b1f5965)
+<img src="app/assets/images/edd108c155d0e387f01a6e5d1b1f5965.gif">
 ## ログイン機能
 [![Image from Gyazo](https://i.gyazo.com/87b6ba21aa8ea4627437683fd30666f9.gif)](https://gyazo.com/87b6ba21aa8ea4627437683fd30666f9)
 ## チャットルーム作成
