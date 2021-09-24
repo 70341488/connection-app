@@ -15,14 +15,19 @@
 # DEMO
 ## 新規登録画面
 <img src="app/assets/images/edd108c155d0e387f01a6e5d1b1f5965.gif">
+
 ## ログイン機能
-[![Image from Gyazo](https://i.gyazo.com/87b6ba21aa8ea4627437683fd30666f9.gif)](https://gyazo.com/87b6ba21aa8ea4627437683fd30666f9)
+<img src="app/assets/images/87b6ba21aa8ea4627437683fd30666f9.gif">
+
 ## チャットルーム作成
-[![Image from Gyazo](https://i.gyazo.com/266c52f464a8b21202a8aa5b83a17a08.gif)](https://gyazo.com/266c52f464a8b21202a8aa5b83a17a08)
+<img src="app/assets/images/266c52f464a8b21202a8aa5b83a17a08.gif">
+
 ## チャット機能
-[![Image from Gyazo](https://i.gyazo.com/a5a83d18a776cf0c055d2b07f552533b.gif)](https://gyazo.com/a5a83d18a776cf0c055d2b07f552533b)
+<img src="app/assets/images/a5a83d18a776cf0c055d2b07f552533b.gif">
+
 ## マイページ機能 削除削除機能
-[![Image from Gyazo](https://i.gyazo.com/2ed7846d875788e866864b4019799121.gif)](https://gyazo.com/2ed7846d875788e866864b4019799121)
+<img src="app/assets/images/a5a83d18a776cf0c055d2b07f552533b.gif">
+
 # 使用技術(開発環境)
 ## バックエンド
 ## Ruby, Ruby on Rails
